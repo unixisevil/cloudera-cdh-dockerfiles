@@ -1,0 +1,5 @@
+cloudera:
+    image: cloudera/quickstart
+    privileged: true
+    hostname: quickstart.cloudera 
+    command: /home/cloudera/cloudera-manager --express
